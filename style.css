@@ -81,6 +81,7 @@ a {
 .grid2{
     display:grid;
     grid-template-columns: 60% 40%;
+    
   
     height: 80vh;
     
@@ -107,7 +108,7 @@ a {
     font-size: 20px;
 }
 .ptag2{
-    color:white;
+    color:rgb(117, 80, 80);
     margin-right:150px;
     margin-left: 100px;
     margin-top:20px;
@@ -135,16 +136,16 @@ body{
 .wIBlock{
     display: grid;
     grid-template-columns: 40% 60%;
-
+    
 }
 .mainHead{
     color: rgb(115, 202, 78);
     font-size: 40px;
+  
 }
 .subHead{
     color: #ffffff;
     font-size: 24px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .mainImg{
