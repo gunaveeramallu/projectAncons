@@ -8,17 +8,19 @@ body{
 }
 .header{
     display: grid;
-    grid-template-columns: 30% 10% 10% 14% 10% 10% 16%;
-    height: 10vh;
+    grid-template-columns: 20% auto auto auto auto auto auto auto;
+    grid-template-rows: 12vh;
+    
+    height: 12vh;
     width: 100%;
     background: black;
 
-    
 }
 .main{
     display: grid;
-    margin: 15px;
-    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 70px;
     justify-content: start;
     font-size: 40px;
     color: rgb(115, 202, 78);
@@ -98,3 +100,13 @@ input[type=text] {
     height: 40px;
     font-size: 18px;
 }
+.btn2{
+    width: 25% ;
+    height: 40px;
+    font-size: 18px;
+}
+.tagLine{
+    margin-left: 50%;
+    margin-top: 0%;
+    color: #55efc4;
+    }
