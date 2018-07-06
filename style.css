@@ -1,7 +1,7 @@
 .header{
     display: grid;
-    grid-template-columns: 30% 10% 10% 14% 10% 10% 16%;
-    height: 10vh;
+    grid-template-columns: 20% 10% 14% 10% 10% 10% 10% 16%;
+    height: 12vh;
     width: 100%;
     background: black;
 
@@ -10,7 +10,7 @@
 .main{
     display: grid;
     margin: 15px;
-    margin-left: 100px;
+    margin-left: 70px;
     justify-content: start;
     font-size: 40px;
     color: rgb(115, 202, 78);
@@ -22,16 +22,16 @@
     color: aliceblue;
 }
 .SIGNUP{
-    margin-top: 20px;
+    margin-top: 18px;
     
     border-radius: 25px;
     color:white;
     border:2px solid blue;
     background: black;
     height: 40px;
-    width:150px;
+    width:100px;
 
-    font-size: 18px;
+    font-size: 16px;
     
     
 }
@@ -138,14 +138,15 @@ body{
     grid-template-columns: 40% 60%;
     
 }
+
 .mainHead{
     color: rgb(115, 202, 78);
-    font-size: 40px;
+    font-size: 30px;
   
 }
 .subHead{
     color: #ffffff;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .mainImg{
