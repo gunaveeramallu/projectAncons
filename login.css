@@ -91,6 +91,18 @@ input[type=text] {
     
 
 }
+input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background: white;
+    border-bottom: 2px solid lightblue;
+    color: black;
+    justify-content: center;
+    
+
+}
 .length{
     width: 40%;
     

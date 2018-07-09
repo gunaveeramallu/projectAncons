@@ -6,9 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ancons</title>
     <link rel="stylesheet" href="style.css">
-    <script  src="main.js"></script>
+ 
     <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
     
+<script>
+  // Initialize Firebase
+
+</script>
 </head>
 <body>
     
@@ -206,18 +210,18 @@ Be a part of this revolutionary technology by enrolling into the intensive progr
             <p class="info1">info@ancons.com</p>
 
         </div>
-        <div>  <br> <center> <input type="text" class="name" placeholder="Your Name"></center> </div>
-        <div><center><input type="text" class="email1" placeholder="Your Email">
+        <div>  <br> <center> <input id = "name" type="text" class="name" placeholder="Your Name"></center> </div>
+        <div><center><input id = "email" type="text" class="email1" placeholder="Your Email">
         </center>
         </div>
         <div>
             <center>
-            <input type="text" class= "message"placeholder="Your Message">
+            <input id = "msg" type="text" class= "message"placeholder="Your Message">
                 </center>
         </div>
         <div>
             <center>
-                        <button class="submit " >SUBMIT</button>
+                        <button class="submit "  onclick="sendFeedback()" >SUBMIT</button>
             </center>
         </div>
     </div>
@@ -225,6 +229,33 @@ Be a part of this revolutionary technology by enrolling into the intensive progr
 </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- scpriting starts here  -->
 
 <script
   src="https://code.jquery.com/jquery-3.3.1.js"
@@ -263,8 +294,25 @@ Be a part of this revolutionary technology by enrolling into the intensive progr
 
 
     
-</script>
 
+
+
+
+</script>
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCwTAB7MwUw2qDBmSYxqq52aPoZVAzDruI",
+    authDomain: "ancons-131e5.firebaseapp.com",
+    databaseURL: "https://ancons-131e5.firebaseio.com",
+    projectId: "ancons-131e5",
+    storageBucket: "ancons-131e5.appspot.com",
+    messagingSenderId: "530922204821"
+  };
+  firebase.initializeApp(config);
+</script>
+   <script  src="main.js"></script>
 </body>  
     
 </html> 
