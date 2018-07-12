@@ -8,6 +8,7 @@ function createUser(){
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
+    var password1 = document.getElementById("password1").value;
     var profile = document.getElementById("profile").value;
     var btn= document.getElementById("btn").value;
 
@@ -30,6 +31,11 @@ function createUser(){
         // ...
       });
       document.getElementById("btn").innerHTML = "SUCCESS"
+       document.getElementById("name").value ="";
+       document.getElementById("email").value="";
+       document.getElementById("password").value="";
+       document.getElementById("password1").value="";
+       document.getElementById("profile").value="";
 
      
 

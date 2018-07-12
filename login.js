@@ -12,4 +12,7 @@ function login(){
         // ...
       });
       document.getElementById("btn").innerHTML = "SUCCESS"
+      document.getElementById("email").value="";
+document.getElementById("password").value="";
+
 }

@@ -112,6 +112,10 @@ input[type=password] {
     height: 40px;
     font-size: 18px;
 }
+    .btn1:hover{
+        background: rgb(115, 202, 78);
+    }
+
 .btn2{
     width: 25% ;
     height: 40px;

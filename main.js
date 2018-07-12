@@ -18,4 +18,7 @@ var db = firebase.firestore();
     .catch(function(error) {
         console.error("Error adding document: ", error);
     });
+     document.getElementById("name").value ="";
+     document.getElementById("email").value="";
+     document.getElementById("msg").value="";
   }
