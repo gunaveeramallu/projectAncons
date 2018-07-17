@@ -30,7 +30,7 @@ function createUser(){
         var errorMessage = error.message;
         // ...
       });
-      document.getElementById("btn").innerHTML = "SUCCESS"
+      document.getElementById("btn").innerHTML = "SUCCESS";
        document.getElementById("name").value ="";
        document.getElementById("email").value="";
        document.getElementById("password").value="";

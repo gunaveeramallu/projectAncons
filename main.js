@@ -21,4 +21,5 @@ var db = firebase.firestore();
      document.getElementById("name").value ="";
      document.getElementById("email").value="";
      document.getElementById("msg").value="";
+
   }

@@ -8,7 +8,7 @@ body{
 }
 .header{
     display: grid;
-    grid-template-columns: 20% auto auto auto auto auto auto auto;
+    grid-template-columns: 20% auto auto auto auto auto auto auto auto;
     grid-template-rows: 12vh;
     
     height: 12vh;
@@ -40,7 +40,7 @@ body{
     border:2px solid blue;
     background: black;
     height: 40px;
-    width:150px;
+    width:100px;
 
     font-size: 18px;
     
@@ -130,3 +130,5 @@ background: lightblue;
     margin-top: 0%;
     color: #55efc4;
  }
+
+     

@@ -1,8 +1,11 @@
+
+@media (min-width: 1025px) and (max-width: 2000px){
+
+
 .header{
     display: grid;
-    grid-template-columns: 20% auto auto auto auto auto auto auto;
+    grid-template-columns: 20% auto auto auto auto auto auto auto auto;
     grid-template-rows: 12vh;
-    
     height: 12vh;
     width: 100%;
     background: black;
@@ -20,7 +23,7 @@
 }
 .sub{
     margin: 15px;
-  margin-top: 28px;
+    margin-top: 28px;
     font-size: 18px;
     color: aliceblue;
 }
@@ -84,11 +87,7 @@ a {
 .grid2{
     display:grid;
     grid-template-columns: 60% 40%;
-    
-  
     height: 80vh;
-    
-
 }
 .ptag{
 /* 
@@ -156,7 +155,7 @@ body{
     width: 100%;
     height: 500px;
     margin-left: 20px;
-   justify-content: center;
+    justify-content: center;
     margin-top: 30%;
     margin-bottom: 20%;
 }
@@ -169,7 +168,7 @@ body{
 .contact{
     font-size: 40px;
     color: #ffffff;
-font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .text{
@@ -180,14 +179,14 @@ font-family: Arial, Helvetica, sans-serif;
 .email{
     display: grid;
     grid-template-columns: 42% 68%;
-grid-gap: 20px;
+    grid-gap: 20px;
 
 }
 .info{
     display: grid;
     justify-self: end;
-margin-top: 10px;
-margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
 
 }
 .info1{
@@ -260,7 +259,6 @@ nav{
     left: 0;
     width: 100%;
     height: 100px;
- 
     box-sizing: border-box;
     transition: .3s;
 }
@@ -268,6 +266,7 @@ nav{
 .tagLine{
 margin-left: 50%;
 margin-top: 0%;
+font-size: 16px;
 color: #55efc4;
 }
 .grid3{
@@ -279,7 +278,6 @@ color: #55efc4;
     height: 60vh;
     margin-top: 30%;
     margin-right: 20;
-
 }
 .grid4{
     display: grid;
@@ -290,7 +288,6 @@ color: #55efc4;
     height: 50vh;
     margin-top: 10%;
     margin-right: 20;
-
 }
 .grid5{
     display: grid;
@@ -303,4 +300,165 @@ color: #55efc4;
     margin-left: 20px;
     margin-top: 22%;
 
+}
+.grid6{
+    display:grid;
+    grid-template-columns: 60% auto;
+}
+.img4{
+    width:90%;
+    justify-content: center;
+    height: 80%;
+    margin-right: 20px;
+    margin-top: 20%;
+}
+}
+
+@media (min-width: 320px) and (max-width: 1025px) {
+    body{
+      background:  url('https://image.freepik.com/free-vector/dark-blue-vector-background-with-dots-and-lines_6869-1696.jpg');
+      color: white;
+    }
+
+    
+   
+  .grid2{
+      display: grid;
+      grid-template-rows: auto auto;
+  
+  }
+  .ptag{
+    /* 
+        margin-left: 100px;
+        margin-right: 150px;
+        margin-top: 100px;
+        margin-bottom: 10px; */
+        margin-top: 100px;
+        font-size: 15px;
+        color:rgb(115, 202, 78);
+        
+        
+    }
+  .img{
+      grid-row: 1;
+      width: 100%;
+  }
+  .subGrid{
+      grid-row: 2;
+      width:100%;
+  }
+  .wIBlock{
+    display: grid;
+    grid-template-rows: auto auto;
+    
+}
+.mainHead{
+    color: rgb(115, 202, 78);
+    font-size: 18px;
+  
+}
+  .mainImg{
+    grid-row: 1;  
+    width: 100%;
+  
+}
+.subGrid{
+    grid-row: 2;
+    width:100%;
+}
+  .grid3{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.img1{
+    grid-row: 1;
+    width: 100%;
+}
+.subGrid{
+    grid-row: 2;
+    width:100%;
+}
+.grid4{
+    display: grid;
+    grid-template-rows: auto auto ;
+}
+.img2{
+    grid-row: 1;
+    width: 100%;
+}
+.subGrid{
+    grid-row: 2;
+    width:100%;
+}
+.grid5{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.img3{
+    grid-row: 1;
+    width: 100%;
+}
+.subGrid{
+    grid-row: 2;
+    width:100%;
+    
+    }
+    .grid6{
+        display:grid;
+        grid-template-rows: auto auto;
+    
+    
+    }
+    .img4{
+        grid-row: 1;
+        width:100%;
+      
+    }
+    .subGrid{
+        grid-row: 2;
+        width:100%;
+    }    
+
+    
+.contact{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text{
+    font-family: sans-serif;
+    color: (250,250,250,0.8)
+
+}
+.email{
+    display: grid;
+    grid-template-columns: 42% 68%;
+    grid-gap: 20px;
+
+}
+.info{
+    display: grid;
+    justify-self: end;
+    margin-top: 8px;
+    margin-left: 8px;
+
+}
+.info1{
+
+    justify-content: start;
+    font-size: 15px;
+}
+.name{
+    border: none;
+    width: 500px;
+}
+.email1{
+    border: none;
+    width: 500px;
+}
+.message{
+    border: none;
+    width: 500px;
+}
 }
