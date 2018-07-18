@@ -1,3 +1,6 @@
+
+
+@media (min-width: 1025px) and (max-width: 2000px){
 body{
     background: url('https://image.freepik.com/free-vector/dark-blue-vector-background-with-dots-and-lines_6869-1696.jpg');
     background-size: cover;
@@ -131,4 +134,130 @@ background: lightblue;
     color: #55efc4;
  }
 
-     
+}
+ @media (min-width: 320px) and (max-width: 1025px) {
+    
+
+body{
+    background: url('https://image.freepik.com/free-vector/dark-blue-vector-background-with-dots-and-lines_6869-1696.jpg');
+    background-size: cover;
+}
+
+.black{
+    background: black;
+}
+nav{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+ 
+    box-sizing: border-box;
+    transition: .3s;
+}
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background: white;
+    border-bottom: 2px solid lightblue;
+    color: black;
+    justify-content: center;
+    
+
+}
+input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background: white;
+    border-bottom: 2px solid lightblue;
+    color: black;
+    justify-content: center;
+    
+
+}
+.btn{
+    width: 90px;
+    height: 45px;
+    border-radius: 15px;
+    font-size: 20px;
+    background: lightblue;
+}
+.btn:hover{
+    background: rgb(115, 202, 78);
+}
+.length{
+    width: 40%;
+    
+}
+
+.sig{
+    display: grid;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+
+}
+
+ .main{
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    
+    justify-content: start;
+    font-size: 30px;
+    color: rgb(115, 202, 78);
+}
+.tagLine{
+    margin-left: 40%;
+    margin-top: 0%;
+    font-size: 10px;
+    color: #55efc4;
+    }
+    .sub{
+        display: none;
+    }
+    .SIGNUP{
+        margin-top: 18px;
+        
+        border-radius: 20px;
+        color:white;
+        border:2px solid blue;
+        background: black;
+        height: 30px;
+        width:90px;
+        float: right;
+    
+        font-size: 16px;
+        
+        
+    }
+   
+    .header{
+        display: grid;
+        grid-template-columns: 20% auto auto ;
+        grid-template-rows: 12vh;
+        height: 12vh;
+        width: 100%;
+        background: black;
+    
+        
+    }
+    .black{
+        background: black;
+    }
+
+    .submit{
+        background: lightblue;
+        width: 50px;
+        height: 46px;
+        border-radius: 25px;
+    }
+    .submit:hover{
+        background: rgb(115, 202, 78)
+    }
+}

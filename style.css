@@ -315,6 +315,59 @@ color: #55efc4;
 }
 
 @media (min-width: 320px) and (max-width: 1025px) {
+    nav{
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+     
+        box-sizing: border-box;
+        transition: .3s;
+    }
+    .main{
+        display: grid;
+        margin-top: 15px;
+        margin-bottom: 0px;
+      
+        justify-content: center;
+        font-size: 30px;
+        color: rgb(115, 202, 78);
+    }
+    .header{
+        display: grid;
+        grid-template-columns: 20% auto auto ;
+        grid-template-rows: 12vh;
+        height: 100%;
+        width: 100%;
+        background: black;
+    
+        
+    }
+    .black{
+        background: black;
+    }
+    
+
+    .submit{
+        background: lightblue;
+        width: 90px;
+        height: 46px;
+        border-radius: 25px;
+    }
+    .submit:hover{
+        background: rgb(115, 202, 78)
+    }
+    input[type=text] {
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        background: black;
+        border-bottom: 2px solid lightblue;
+        color: white;
+        justify-content: center;
+    }
     body{
       background:  url('https://image.freepik.com/free-vector/dark-blue-vector-background-with-dots-and-lines_6869-1696.jpg');
       color: white;
@@ -342,11 +395,23 @@ color: #55efc4;
   .img{
       grid-row: 1;
       width: 100%;
+      height: 100%;
+      margin-left: 45px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+     
+
   }
   .subGrid{
       grid-row: 2;
-      width:100%;
-  }
+      width: 100%;
+      height: 100%;
+      margin-left: 28px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+  }  
   .wIBlock{
     display: grid;
     grid-template-rows: auto auto;
@@ -360,12 +425,31 @@ color: #55efc4;
   .mainImg{
     grid-row: 1;  
     width: 100%;
-  
+    height: 100%;
+    margin-left: 28px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+   
 }
+.end{
+    grid-row: 2;
+    width: 100%;
+    height: 100%;
+    margin-left: 28px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}  
 .subGrid{
     grid-row: 2;
-    width:100%;
-}
+    width: 100%;
+    height: 100%;
+    margin-left: 28px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}  
   .grid3{
     display: grid;
     grid-template-rows: auto auto;
@@ -373,11 +457,24 @@ color: #55efc4;
 .img1{
     grid-row: 1;
     width: 100%;
+    height: 100%;
+    margin-left: 28px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+   
+
+
 }
 .subGrid{
     grid-row: 2;
-    width:100%;
-}
+    width: 100%;
+    height: 100%;
+    margin-left: 28px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}  
 .grid4{
     display: grid;
     grid-template-rows: auto auto ;
@@ -385,11 +482,21 @@ color: #55efc4;
 .img2{
     grid-row: 1;
     width: 100%;
-}
+    height: 100%;
+    margin-left: 28px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}  
 .subGrid{
     grid-row: 2;
-    width:100%;
-}
+    width: 100%;
+      height: 100%;
+      margin-left: 28px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+  }  
 .grid5{
     display: grid;
     grid-template-rows: auto auto;
@@ -397,12 +504,21 @@ color: #55efc4;
 .img3{
     grid-row: 1;
     width: 100%;
-}
+    height: 100%;
+    margin-left: 28px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}  
 .subGrid{
     grid-row: 2;
-    width:100%;
-    
-    }
+    width: 100%;
+    height: 100%;
+    margin-left: 28px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}  
     .grid6{
         display:grid;
         grid-template-rows: auto auto;
@@ -411,17 +527,25 @@ color: #55efc4;
     }
     .img4{
         grid-row: 1;
-        width:100%;
-      
-    }
+        width: 100%;
+        height: 100%;
+        margin-left: 28px;
+        justify-content: left;
+        align-items: center;
+        margin-top: 40px;
+    }  
     .subGrid{
-        grid-row: 2;
-        width:100%;
-    }    
+        width: 100%;
+        height: 100%;
+        margin-left: 28px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }  
 
     
 .contact{
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -433,7 +557,7 @@ color: #55efc4;
 }
 .email{
     display: grid;
-    grid-template-columns: 42% 68%;
+    grid-template-columns: 32% 68%;
     grid-gap: 20px;
 
 }
@@ -451,14 +575,47 @@ color: #55efc4;
 }
 .name{
     border: none;
-    width: 500px;
+    width: 300px;
 }
 .email1{
     border: none;
-    width: 500px;
+    width: 300px;
 }
 .message{
     border: none;
-    width: 500px;
+    width: 300px;
 }
+
+.main{
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    
+    justify-content: start;
+    font-size: 30px;
+    color: rgb(115, 202, 78);
+}
+.tagLine{
+    margin-left: 40%;
+    margin-top: 0%;
+    font-size: 10px;
+    color: #55efc4;
+    }
+    .sub{
+        display: none;
+    }
+    .SIGNUP{
+        margin-top: 18px;
+        border-radius: 20px;
+        color:#ffffff;
+        border:2px solid rgb(76, 0, 255);
+        background: black;
+        height: 30px;
+        width:90px;
+        float: right;    
+        font-size: 14px;
+        
+        
+    }
+
 }
