@@ -1,5 +1,5 @@
 
-@media (min-width: 1025px) and (max-width: 2000px){
+@media (min-width: 1024px) and (max-width: 2000px){
 
 
 .header{
@@ -170,6 +170,13 @@ body{
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
+.any{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 
 .text{
     font-family: sans-serif;
@@ -198,7 +205,11 @@ body{
     border: none;
     width: 500px;
 }
-.email1{
+.cell1{
+    border:none;
+    width:500px;
+}
+.gmail2{
     border: none;
     width: 500px;
 }
@@ -206,6 +217,7 @@ body{
     border: none;
     width: 500px;
 }
+
 input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
@@ -314,13 +326,343 @@ color: #55efc4;
 }
 }
 
-@media (min-width: 320px) and (max-width: 1025px) {
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+
+    .header{
+        display: grid;
+        grid-template-columns: 18% auto auto auto auto auto auto auto auto;
+        grid-template-rows: 12vh;
+        height: 100%;
+        width: 100%;
+        background: black;
+    
+        
+    }
+    .main{
+        display: grid;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        margin-left: 35px;
+        margin-right: 70px;
+        justify-content: start;
+        font-size: 35px;
+        color: rgb(115, 202, 78);
+    }
+    .sub{
+        margin: 15px;
+        margin-top: 28px;
+        margin-left: 10px;
+        font-size: 18px;
+        color: aliceblue;
+    }
+    .SIGNUP{
+        margin-top: 18px;
+        
+        border-radius: 25px;
+        color:white;
+        border:2px solid blue;
+        background: black;
+        height: 38px;
+        width:85px;
+    
+        font-size: 16px;
+        
+        
+    }
+    .black{
+        background: black;
+    }
+    
+    
+    .startGrid{
+       display : grid;
+       grid-template-columns:100px  auto;
+       height: 80px;
+       width: 100%;
+    }
+    .ANCONS{
+        display: grid;
+        margin: 15px;
+        margin-left: 120px;
+        justify-content: start;
+        font-size: 35px;
+        color: rgb(115, 202, 78);
+    }
+    
+    .second2{
+        display:grid;
+        grid-template-columns: 100px 150px;
+        justify-content: end;
+        margin: 15px;
+        color: #ffffff;
+    
+    }
+    a {
+        text-decoration: none;
+        display: inline-table;
+      }
+      
+    .LOGIN{
+        width: 100px;
+        height: 30px;
+        border-radius: 25px;
+        color: #ffffff;
+        margin-top: 20px;
+        font-size: 22px;
+      
+    }
+    
+    .grid2{
+        display:grid;
+        grid-template-columns: 60% 40%;
+        height: 80vh;
+    }
+    .ptag{
+    /* 
+        margin-left: 100px;
+        margin-right: 150px;
+        margin-top: 100px;
+        margin-bottom: 10px; */
+        margin-top: 100px;
+        font-size: 20px;
+        color:rgb(115, 202, 78);
+        
+        
+    }
+    .ptag1{
+        color:white;
+        margin-right:150px;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-size:18px;
+    }
+    .ptag2{
+        color:rgb(117, 80, 80);
+        margin-right:150px;
+        margin-left: 100px;
+        margin-top:20px;
+        margin-bottom:50px;
+        font-size: 18px;
+        
+    }
+    .img{
+        height: 300px;
+        width: 300px;
+        margin-left: 55px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+       
+    }
+    body{
+        background: url('https://image.freepik.com/free-vector/dark-blue-vector-background-with-dots-and-lines_6869-1696.jpg');
+        background-size: cover;
+    }
+    
+    
+    
+    /* what is block chain */
+    .wIBlock{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        
+    }
+    
+    .mainHead{
+        color: rgb(115, 202, 78);
+        font-size: 20px;
+      
+    }
+    .subHead{
+        color: #ffffff;
+        font-size: 16px;
+    }
+    
+    .mainImg{
+        width: 90%;
+        height: 450px;
+        margin-left: 20px;
+        justify-content: center;
+        margin-top: 30%;
+        margin-bottom: 20%;
+    }
+    .row{
+        display: grid;
+        grid-auto-rows: 100px 40px 40px 60px 60px 60px 60px ;
+        color: aliceblue;
+    
+    }
+    .contact{
+        font-size: 30px;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .any{
+    font-size: 20px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+    .text{
+        font-family: sans-serif;
+        color: (250,250,250,0.8)
+    
+    }
+    .email{
+        display: grid;
+        grid-template-columns: 42% 68%;
+        grid-gap: 20px;
+    
+    }
+    .info{
+        display: grid;
+        justify-self: end;
+        margin-top: 10px;
+        margin-left: 10px;
+    
+    }
+    .info1{
+    
+        justify-content: start;
+        font-size: 20px;
+    }
+    .name{
+        border: none;
+        width: 500px;
+    }
+    .cell1{
+        border:none;
+        width:500px;
+    }
+    .gmail2{
+        border: none;
+        width: 500px;
+    }
+    .message{
+        border: none;
+        width: 500px;
+    
+  
+    }
+    input[type=text] {
+        padding: 10px 16px;
+        margin: 6px 0;
+        box-sizing: border-box;
+        border: none;
+        background: black;
+        border-bottom: 2px solid lightblue;
+        color: white;
+        justify-content: center;
+    }
+    .submit{
+        background: lightblue;
+        width: 92px;
+        height: 46px;
+        border-radius: 25px;
+    }
+    .submit:hover{
+        background: rgb(115, 202, 78)
+    }
+    
+    a:link {
+     
+        color:white;
+    }
+    
+    a:visited {
+      
+        color:white;
+    }
+    
+    a:hover {
+        
+        color:lightblue;
+    }
+    
+    a:active {
+      
+        color:white;
+    } 
+    
+    
+    
+    .contanier{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
     nav{
         position: fixed;
         top:0;
         left: 0;
         width: 100%;
         height: 100px;
+        box-sizing: border-box;
+        transition: .3s;
+    }
+    
+    .tagLine{
+    margin-left: 28%;
+    margin-top: 0%;
+    font-size: 16px;
+    color: #55efc4;
+    }
+    .grid3{
+        display: grid;
+        grid-template-columns: 40% auto;
+    }
+    .img1{
+        width: 90%;
+        height: 60vh;
+        margin-top: 16%;
+        margin-right: 20;
+    }
+    .grid4{
+        display: grid;
+        grid-template-columns: 40% auto ;
+    }
+    .img2{
+        width: 90%;
+        height: 40vh;
+        margin-top: 10%;
+        margin-right: 20;
+    }
+    .grid5{
+        display: grid;
+        grid-template-columns: auto 30%;
+    }
+    .img3{
+        width: 100%;
+        justify-content: center;
+        height: 80%;
+        margin-left: 20px;
+        margin-top: 22%;
+    
+    }
+    .grid6{
+        display:grid;
+        grid-template-columns: 60% auto;
+    }
+    .img4{
+        width:90%;
+        justify-content: center;
+        height: 80%;
+        margin-right: 20px;
+        margin-top: 10%;
+    }
+    }
+    
+
+@media (min-width: 320px) and (max-width: 699px) {
+    nav{
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
      
         box-sizing: border-box;
         transition: .3s;
@@ -336,7 +678,7 @@ color: #55efc4;
     }
     .header{
         display: grid;
-        grid-template-columns: 20% auto auto ;
+        grid-template-columns: 20%  auto ;
         grid-template-rows: 12vh;
         height: 100%;
         width: 100%;
@@ -359,8 +701,8 @@ color: #55efc4;
         background: rgb(115, 202, 78)
     }
     input[type=text] {
-        padding: 12px 20px;
-        margin: 8px 0;
+        padding: 10px 18px;
+        margin: 6px 0;
         box-sizing: border-box;
         border: none;
         background: black;
@@ -549,6 +891,11 @@ color: #55efc4;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
+.any{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .text{
     font-family: sans-serif;
@@ -577,7 +924,12 @@ color: #55efc4;
     border: none;
     width: 300px;
 }
-.email1{
+.cell1{
+    border:none;
+    width:300px;
+}
+
+.gmail2{
     border: none;
     width: 300px;
 }

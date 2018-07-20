@@ -1,6 +1,6 @@
 
 
-@media (min-width: 1025px) and (max-width: 2000px){
+@media (min-width: 700px) and (max-width: 2000px){
 body{
     background: url('https://image.freepik.com/free-vector/dark-blue-vector-background-with-dots-and-lines_6869-1696.jpg');
     background-size: cover;
@@ -135,7 +135,146 @@ background: lightblue;
  }
 
 }
- @media (min-width: 320px) and (max-width: 1025px) {
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    body{
+        background: url('https://image.freepik.com/free-vector/dark-blue-vector-background-with-dots-and-lines_6869-1696.jpg');
+        background-size: cover;
+    }
+    
+    .black{
+        background: black;
+    }
+    .header{
+        display: grid;
+        grid-template-columns: 18% auto auto auto auto auto auto auto auto;
+        grid-template-rows: 12vh;
+        
+        height: 100%;
+        width: 100%;
+        background: black;
+    
+        
+    }
+    .main{
+        display: grid;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        margin-left: 35px;
+        margin-right: 70px;
+        justify-content: start;
+        font-size: 35px;
+        color: rgb(115, 202, 78);
+    }
+    .sub{
+        margin: 15px;
+      margin-top: 28px;
+        font-size: 18px;
+        color: aliceblue;
+    }
+    .SIGNUP{
+        margin-top: 20px;
+        
+        border-radius: 25px;
+        color:white;
+        border:2px solid blue;
+        background: black;
+        height: 38px;
+        width:85px;
+    
+        font-size: 16px;
+        
+        
+    }
+    a {
+        text-decoration: none;
+        display: inline-table;
+      }
+      
+    a:link {
+     
+        color:white;
+    }
+    
+    a:visited {
+      
+        color:white;
+    }
+    
+    a:hover {
+        
+        color:lightblue;
+    }
+    
+    a:active {
+      
+        color:white;
+    }
+    nav{
+        position: fixed;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+     
+        box-sizing: border-box;
+        transition: .3s;
+    }
+    input[type=text] {
+        padding: 10px 16px;
+        margin: 6px 0;
+        box-sizing: border-box;
+        border: none;
+        background: white;
+        border-bottom: 2px solid lightblue;
+        color: black;
+        justify-content: center;
+        
+    
+    }
+    input[type=password] {
+        padding: 10px 16px;
+        margin: 6px 0;
+        box-sizing: border-box;
+        border: none;
+        background: white;
+        border-bottom: 2px solid lightblue;
+        color: black;
+        justify-content: center;
+        
+    
+    }
+    
+    .btn{
+        width: 100px;
+        height: 45px;
+        border-radius: 15px;
+    font-size: 24px;
+    background: lightblue;
+    }
+    .btn:hover{
+        background: rgb(115, 202, 78);
+    }
+    .length{
+        width: 40%;
+        
+    }
+    
+    .sig{
+        display: grid;
+        grid-template-rows: 80px 80px 80px 80px 80px; 
+    
+    }
+    .tagLine{
+        margin-left: 28%;
+
+        margin-top: 0%;
+        color: #55efc4;
+     }
+    
+    }
+ @media (min-width: 320px) and (max-width: 699px) {
     
 
 body{
@@ -151,14 +290,14 @@ nav{
     top:0;
     left: 0;
     width: 100%;
-    height: 100px;
+    height: 100%;
  
     box-sizing: border-box;
     transition: .3s;
 }
 input[type=text] {
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 10px 16px;
+    margin: 6px 0;
     box-sizing: border-box;
     border: none;
     background: white;
@@ -169,8 +308,8 @@ input[type=text] {
 
 }
 input[type=password] {
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 10px 18px;
+    margin: 6px 0;
     box-sizing: border-box;
     border: none;
     background: white;
@@ -179,6 +318,17 @@ input[type=password] {
     justify-content: center;
     
 
+}
+
+nav{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ 
+    box-sizing: border-box;
+    transition: .3s;
 }
 .btn{
     width: 90px;
@@ -213,51 +363,9 @@ input[type=password] {
     color: rgb(115, 202, 78);
 }
 .tagLine{
-    margin-left: 40%;
+    margin-left: 50%;
     margin-top: 0%;
     font-size: 10px;
     color: #55efc4;
-    }
-    .sub{
-        display: none;
-    }
-    .SIGNUP{
-        margin-top: 18px;
-        
-        border-radius: 20px;
-        color:white;
-        border:2px solid blue;
-        background: black;
-        height: 30px;
-        width:90px;
-        float: right;
-    
-        font-size: 16px;
-        
-        
-    }
-   
-    .header{
-        display: grid;
-        grid-template-columns: 20% auto auto ;
-        grid-template-rows: 12vh;
-        height: 12vh;
-        width: 100%;
-        background: black;
-    
-        
-    }
-    .black{
-        background: black;
-    }
-
-    .submit{
-        background: lightblue;
-        width: 50px;
-        height: 46px;
-        border-radius: 25px;
-    }
-    .submit:hover{
-        background: rgb(115, 202, 78)
     }
 }
