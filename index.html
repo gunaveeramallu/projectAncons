@@ -20,19 +20,27 @@
             <nav>
                     <div class="black">
                 <div class="header">
+                    <div class="dum">
                         <div >  <a href="index.html"> <p class="main">ANCONS</p> 
+                            
                         <p class="tagLine">Blockchain Labs</p>
-                        </a>
                         
+                        </a></div>
+
+                        <div>
+                            <img  class="imgEnd"  onclick="menuClicked()" src="imges/menu.png">
+                        </div>
                     </div>
-                    <div class="sub"><a href="#wlBlock">Terminology</a> </div>
-                    <div class="sub"><a href="#360">  360 <sup>o</sup>   overview</a></div>
-                    <div class="sub"><a href="#disruption"> Disruption</a></div>
-                    <div class="sub"><a href="#validation">Validation</a></div>
-                    <div class="sub"><a href="#WhitePaper"> WhitePaper</a></div>
-                    <div class="sub"><a href="#contact"> Contact</a></div>
-                    <div class="sub"><a href="login.html"> LOGIN </a></div>
-                    <div><button class="SIGNUP" > <a href="signUp.html"> SIGN UP</button> </a> </div>
+                        
+                    
+                    <div class="sub center"  id = "display" ><a href="#wlBlock">Terminology</a> </div>
+                    <div class="sub center"  id = "display1" ><a href="#360">  360 <sup>o</sup>   overview</a></div>
+                    <div class="sub center" id = "display2" ><a href="#disruption"> Disruption</a></div>
+                    <div class="sub center" id = "display3" ><a href="#validation">Validation</a></div>
+                    <div class="sub center" id = "display4" ><a href="#WhitePaper"> WhitePaper</a></div>
+                    <div class="sub center" id = "display5" ><a href="#contact"> Contact</a></div>
+                    <div class="sub center" id = "display6" ><a href="login.html"> LOGIN </a></div>
+                    <div><center><button class="SIGNUP "id = "display7"  > <a href="signUp.html"> SIGN UP</button></center> </a> </div>
                 </div>
            
                 </div>
@@ -170,7 +178,6 @@ Be a part of this revolutionary technology by enrolling into the intensive progr
             <br>
             <br>
 
-
             <div class="grid5">
 
 
@@ -224,7 +231,7 @@ Be a part of this revolutionary technology by enrolling into the intensive progr
         <div class="contact" > <center>CONTACT ANCONS</center></div>
 
         <br>
-        <div class="any "><center>Any question? Reach out to us and we'll get back to you shortly.</center></div>
+        <div style="font-size: 22px ; "><center>Any question? Reach out to us and we'll get back to you shortly.</center></div>
        <br>
 
         <div class="email">
@@ -232,22 +239,17 @@ Be a part of this revolutionary technology by enrolling into the intensive progr
             <p class="info1">info@ancons.com</p>
 
         </div>
-        <div>  <br> <center> <input id = "name" type="text" class="name" placeholder="Your Name" maxlength="50"></center> </div>
-        <div>
-            <center>
-                <input id = "cell" type="number" class="cell1"placeholder="Your Contact" maxlength="10">
-            </center>
-        </div>
-        <div><center><input id = "gmail1" type="gmail"   class="gmail2" placeholder="Your Gmail"></center></div>
+        <div>  <br> <center> <input id = "name" type="text" class="name" placeholder="Your Name"></center> </div>
+        <div><center><input id = "email" type="text" class="email1" placeholder="Your Email"></center></div>
     
         <div>
             <center>
             <input id = "msg" type="text" class= "message"placeholder="Your Message">
                 </center>
         </div>
-       
         <div>
             <center>
+                <p id="fill">Fill all the fields</p><br>
                         <button class="submit "  onclick="sendFeedback()" >SUBMIT</button>
             </center>
         </div>
